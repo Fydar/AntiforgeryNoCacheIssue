@@ -1,4 +1,5 @@
 using AntiforgeryNoCacheIssue.WebApp.Components;
+using AntiforgeryNoCacheIssue.Workaround;
 
 namespace AntiforgeryNoCacheIssue.WebApp
 {
