@@ -12,6 +12,9 @@ namespace AntiforgeryNoCacheIssue.WebApp
             // Add services to the container.
             builder.Services.AddRazorComponents();
 
+            builder.Services.AddAntiforgery();
+            builder.Services.RemoveAntiforgeryNoStore();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
